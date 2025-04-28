@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEHTABISRARPORTFOLIO</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Animate.css -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Optional: Top Bar -->
+    <div class="top-bar py-1 d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center text-white small">
+                <i class="bi bi-chat-square-text me-2"></i>
+                <span class="mi">MI WEB DESIGNS</span>
+                <i class="bi bi-arrow-left ms-3"></i>
+                <i class="bi bi-arrow-right ms-2"></i>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="#" class="text-white-50 me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white-50 me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white-50 me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-white-50 me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="btn btn-sm btn-custom-green contact-btn"><i class="bi bi-chevron-right small me-1"></i> Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand animate__animated wow" data-animation="animate__fadeInLeft" href="#">
+               <span style="position: relative;left: 30px;color: #7e22ce;font-weight: bolder;font-size: 40px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">MEHTAB ISRAR</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.1s"><a class="nav-link active" aria-current="page" href="#">HOME</a></li>
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.2s"><a class="nav-link" href="#about-us">ABOUT</a></li>
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.3s"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.2s"><a class="nav-link" href="#services">SERVICES</a></li>
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.4s"><a class="nav-link" href="#portfolio">MY WORK</a></li>
+                    <li class="nav-item animate__animated wow" data-animation="animate__fadeInDown" data-wow-delay="0.5s"><a class="nav-link" href="#testimonials">TESTIMONIALS</a></li>
+                </ul>
+                <div class="d-flex align-items-center navbar-right-tools animate__animated wow" data-animation="animate__fadeInRight">
+                   <a href=""><input type="text" placeholder="search" style="width: 160px; height: 30px; text-align:center;border: #7e22ce;position: relative;right: 70px;background-color: #7e22ce;color: white;border-radius: 20px;"></a>
+
+                   <a href="#" class="text-white"><i class="bi bi-grid-3x3-gap-fill fs-4" style="position: relative;right: 30px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center position-relative">
+        <div class="container"> <!-- Changed back to container for centered text -->
+            <div class="row justify-content-center"> <!-- Center the column -->
+                <!-- Text Content -->
+                <div class="col-lg-10 text-center hero-text-content"> <!-- Adjusted column width and kept text center -->
+                    <h1 class="display-2 fw-bold mb-3 animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.2s">
+                        <span class="text-custom-green">IMAGINATION</span> IS MORE<br>
+                        IMPORTANT THAN<br>
+                        KNOWLEDGE
+                    </h1>
+                    <p class="lead mb-4 sub-heading animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.4s">
+                    <span style="color: white;">I AM FRONT-END DEVELOPER ,I WILL DEIGN YOUR WEB IMAGINATIONS</span> 
+                    </p>
+                    <a href="#" class="btn btn-lg btn-custom-green get-started-btn animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.6s">
+                        LETS BUILD <i class="bi bi-arrow-right-short"></i>
+                    </a>
+                </div>
+                <!-- Image Column Removed as per user's last HTML -->
+            </div>
+        </div>
+        <!-- Side Navigation Dots -->
+        <div class="side-nav d-none d-lg-flex flex-column position-absolute end-0 top-50 translate-middle-y me-4">
+            <a href="#1" class="dot active animate__animated wow" data-animation="animate__fadeInRight" data-wow-delay="0.8s"><span>01</span></a>
+            <a href="#2" class="dot animate__animated wow" data-animation="animate__fadeInRight" data-wow-delay="0.9s"><span>02</span></a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-section py-5 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- Image Column -->
+                <div class="col-lg-6 animate__animated wow" data-animation="animate__fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-image-wrapper position-relative text-center text-lg-start">
+                         <div class="dot-grid d-none d-lg-block">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="dfdfff.jpg" alt="Man working on computer" class="img-fluid rounded shadow-lg about-image">
+                       
+                            <i class="bi bi-play-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Text Column -->
+                <div class="col-lg-6 position-relative animate__animated wow" data-animation="animate__fadeInRight" data-wow-delay="0.3s">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">ABOUT US</div>
+                    <div class="about-text-content position-relative">
+                        <h2 class="display-5 fw-bold mb-3">
+                            FAILURE IS THE CONDIMENT THAT<br> GIVES <span class="text-custom-green">SUCCESS</span>
+                        </h2>
+                        <p class="text-muted-custom mb-4 lead">
+                       I ALWAYS TRY MY BEST TO GIVE YOU MY BEST
+                        </p>
+                        <a href="White black Free printable Modern Minimalist CV Resume.pdf" class="btn btn-custom-green btn-download-cv">DOWNLOAD CV
+                            
+                            <span class="arrow-box ms-2"><i class="bi bi-arrow-right-short"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <!-- Section Title Row -->
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start experience-title-area animate__animated wow" data-animation="animate__fadeInLeft" data-wow-delay="0.1s">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">MY CAREER</div>
+                    <p class="subtitle text-uppercase mb-2">My Experience</p>
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        EXPERIENCE AND <span class="text-custom-green">SKILL</span>
+                    </h2>
+                </div>
+                <div class="col-lg-6 experience-description mt-4 mt-lg-0 animate__animated wow" data-animation="animate__fadeInRight" data-wow-delay="0.2s">
+                    <div class="green-marker"></div>
+                    <p class="text-muted-custom lead mb-0">
+                        I HAVE ALMOST ONE YEAR OF WEB EXPERIENCE
+                    </p>
+                </div>
+            </div>
+            <!-- Experience Grid Row -->
+            <div class="row gy-5 gx-lg-5">
+                <div class="col-md-6 col-lg-3 animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="experience-item"><H1 style="color: #7e22ce;font-weight: bolder;">WEB DEVELOPER</H1><br>
+                       <h3> MAINLY FOCUSED</h3><br>
+                        All you need to do your best work together in one package works seamlessly computer</div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.2s">
+                    <div class="experience-item"><H1 style="color: #7e22ce;font-weight: bolder;">WEB DESIGNER</H1><br>
+                        <h3>THINKING TO REALITY</h3> <br>
+                        All you need to do your best work together in one package works seamlessly computer</div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.3s">
+                    <div class="experience-item"><H1 style="color: #7e22ce;font-weight: bolder;">SPORTSMAN STIPE</H1><br>
+                        <H3>MENTAL PURITY FIRST</H3><br>
+                        All you need to do your best work together in one package works seamlessly computer</div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate__animated wow" data-animation="animate__fadeInUp" data-wow-delay="0.4s">
+                    <div class="experience-item"><H1 style="color: #7e22ce;font-weight: bolder;">VEDIO EDITOR</H1><br>
+                        <H3>JUST FOR FUN</H3><br><br>
+                        All you need to do your best work together in one package works seamlessly computer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <div class="row text-center gy-5"> <!-- Add gy-5 for vertical gap when stacked -->
+
+                <!-- Skill Item 1: Branding Design -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="96">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <!-- Background Track -->
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <!-- Progress Fill -->
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">60</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">WEB DEVELOPING</h3>
+                    </div>
+                </div>
+
+                <!-- Skill Item 2: UI & UX Design -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="91">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">70</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">UI & UX Design</h3>
+                    </div>
+                </div>
+
+                <!-- Skill Item 3: Web Design -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="99">
+                             <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">30</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">CLIENT RESPONSE</h3>
+                    </div>
+                </div>
+                  <!-- Skill Item 3: Web Design -->
+                  <div class="col-sm-6 col-lg-3">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="99">
+                             <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">30</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">RESPONSE TIME</h3>
+                    </div>
+                </div>
+
+
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Mehtab Israr - Portfolio Sections</title>
+                
+                    <!-- Bootstrap CSS (Assuming you are using Bootstrap 5) -->
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+                    <!-- Bootstrap Icons -->
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+                
+                    <!-- AOS CSS -->
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                
+                    <!-- Your Custom CSS -->
+                    <link rel="stylesheet" href="style.css">
+                
+                </head>
+                <body>
+                
+                    <!-- Services Section -->
+                    <section id="services" class="services-section py-5 overflow-hidden">
+                        <div class="container">
+                            <!-- Section Title Row -->
+                            <div class="row mb-5 align-items-center">
+                                <div class="col-lg-6 text-center text-lg-start services-title-area" data-aos="fade-up">
+                                    <!-- Faded Background Text -->
+                                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">OUR SERVICES</div>
+                                    <p class="subtitle text-uppercase mb-2">What We Do</p>
+                                    <h2 class="main-title display-4 fw-bold mb-0">
+                                        SERVICES AND <span class="text-custom-green">SOLUTIONS</span>
+                                    </h2>
+                                </div>
+                                <div class="col-lg-6 services-description mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                                    <!-- Green Marker -->
+                                    <div class="green-marker"></div>
+                                    <p class="text-muted-custom lead mb-0">
+                                        I specialize in building responsive, adaptive, and user-centric web experiences that are both intuitive and interactive. My designs are mobile-first, accessible, and SEO-optimized, ensuring maximum reach and usability.
+                                    </p>
+                                </div>
+                            </div>
+                
+                            <!-- Service Cards Row -->
+                            <div class="row gy-4 justify-content-center"> <!-- Add gy-4 for vertical gap -->
+                                <!-- Service Card 1: Design Principales -->
+                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="service-card p-4 p-lg-5 text-center text-lg-start w-100">
+                                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                                            <i class="bi bi-flag-fill display-4 text-custom-green"></i>
+                                        </div>
+                                        <h3 class="service-title h5 text-custom-green text-uppercase fw-bold mb-3">Design Principales</h3>
+                                        <p class="service-description text-muted-custom small">
+                                            Need A Project Completed By An Expert? Let's Go! Access A Human Resources Consultant To Answer Questions
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Service Card 2: Unique Values (Highlighted) -->
+                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="service-card card-highlight p-4 p-lg-5 text-center text-lg-start w-100">
+                                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                                            <i class="bi bi-lightbulb-fill display-4"></i>
+                                        </div>
+                                        <h3 class="service-title h5 text-uppercase fw-bold mb-3">Unique Values</h3>
+                                        <p class="service-description small">
+                                            Need A Project Completed By An Expert? Let's Go! Access A Human Resources Consultant To Answer Questions
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Service Card 3: Style Components -->
+                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="service-card p-4 p-lg-5 text-center text-lg-start w-100 position-relative">
+                                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                                            <i class="bi bi-layers-fill display-4 text-custom-green"></i>
+                                        </div>
+                                        <h3 class="service-title h5 text-custom-green text-uppercase fw-bold mb-3">Style Components</h3>
+                                        <p class="service-description text-muted-custom small">
+                                            Need A Project Completed By An Expert? Let's Go! Access A Human Resources Consultant To Answer Questions
+                                        </p>
+                                        <!-- Decorative Circle -->
+                                        <div class="decorative-circle d-none d-lg-block"></div>
+                                    </div>
+                                </div>
+                            </div> <!-- End Service Cards Row -->
+                        </div> <!-- End Container -->
+                    </section> <!-- End Services Section -->
+                
+                    <!-- Portfolio Section -->
+                    <section id="portfolio" class="portfolio-section py-5 overflow-hidden">
+                        <div class="container">
+                            <!-- Section Title Row -->
+                            <div class="row mb-5 align-items-center">
+                                <div class="col-lg-6 text-center text-lg-start portfolio-title-area" data-aos="fade-up">
+                                    <!-- Faded Background Text -->
+                                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">OUR PORTFOLIO</div>
+                                    <p class="subtitle text-uppercase mb-2">Working Process</p>
+                                    <h2 class="main-title display-4 fw-bold mb-0">
+                                        LATEST WORKING <span class="text-custom-green">PROJECT</span>
+                                    </h2>
+                                </div>
+                                <div class="col-lg-6 portfolio-header-right mt-4 mt-lg-0 d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center" data-aos="fade-up" data-aos-delay="100">
+                                    <!-- Description -->
+                                    <div class="portfolio-description flex-grow-1 me-lg-3 text-center text-lg-start">
+                                        <div class="green-marker"></div>
+                                        <p class="text-muted-custom lead mb-0">
+                                            HERE IS MY LATEST PROJECTS ON WHICH I WORKED
+                                        </p>
+                                    </div>
+                                    <!-- Navigation Arrows -->
+                                    <div class="portfolio-nav mt-3 mt-lg-0 text-center text-lg-end">
+                                        <a href="#" class="btn-nav" aria-label="Previous Project">
+                                            <i class="bi bi-arrow-left"></i>
+                                        </a>
+                                        <a href="#" class="btn-nav ms-2" aria-label="Next Project">
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Portfolio Grid Row -->
+                            <div class="row gy-4 justify-content-center">
+                                <!-- Project Item 1 -->
+                                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="project-item">
+                                        <a href="#">
+                                            <img src="work1.jpg" alt="Project 1 Preview" class="img-fluid project-image">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Project Item 2 -->
+                                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="project-item">
+                                        <a href="#">
+                                            <img src="owrk3.avif" alt="Project 2 Preview" class="img-fluid project-image">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Project Item 3 -->
+                                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="project-item">
+                                        <a href="#">
+                                            <img src="work2.jpg" alt="Project 3 Preview" class="img-fluid project-image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> <!-- End Portfolio Grid Row -->
+                        </div> <!-- End Container -->
+                    </section> <!-- End Portfolio Section -->
+                
+                    <!-- Testimonials Section -->
+                    <section id="testimonials" class="testimonials-section py-5 overflow-hidden position-relative">
+                        <!-- Background Patterns -->
+                        <div class="background-pattern top-left"></div>
+                        <div class="background-pattern bottom-right"></div>
+                
+                        <div class="container position-relative" style="z-index: 2;">
+                            <!-- Section Title Row -->
+                            <div class="row mb-5 pb-4 align-items-center">
+                                <div class="col-lg-6 text-center text-lg-start testimonial-title-area" data-aos="fade-up">
+                                    <!-- Faded Background Text -->
+                                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">TESTIMONIALS</div>
+                                    <p class="subtitle text-uppercase mb-2">Testimonials</p>
+                                    <h2 class="main-title display-4 fw-bold mb-0">
+                                        HAPPY CLIENTS TO <span class="text-custom-green">SAYS</span>
+                                    </h2>
+                                </div>
+                                <div class="col-lg-6 testimonial-header-right mt-4 mt-lg-0 d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center" data-aos="fade-up" data-aos-delay="100">
+                                    <!-- Description -->
+                                    <div class="testimonial-description flex-grow-1 me-lg-3 text-center text-lg-start">
+                                        <div class="green-marker"></div>
+                                        <p class="text-muted-custom lead mb-0">
+                                            HERE IS THE REASON OF MY STATSIFCTION TOWARDS MY CLIENTS
+                                        </p>
+                                    </div>
+                                    <!-- Navigation Arrows -->
+                                    <div class="testimonial-nav mt-3 mt-lg-0 text-center text-lg-end">
+                                        <a href="#" class="btn-nav" aria-label="Previous Testimonial">
+                                            <i class="bi bi-arrow-left"></i>
+                                        </a>
+                                        <a href="#" class="btn-nav ms-2" aria-label="Next Testimonial">
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Testimonial Content Row -->
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 col-xl-9" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="testimonial-item text-center">
+                                        <div class="quote-icon display-1 text-custom-green mb-4">
+                                            <i class="bi bi-quote"></i>
+                                        </div>
+                                        <div class="testimonial-body d-flex flex-column flex-md-row align-items-center">
+                                            <div class="flex-shrink-0 mb-4 mb-md-0 me-md-4">
+                                                <img src="young-business-man-coat-outside-with-laptop.jpg" alt="Jack Metiyo Shina" class="testimonial-image rounded-circle">
+                                            </div>
+                                            <div class="flex-grow-1 text-center text-md-start">
+                                                <blockquote class="testimonial-text h3 fw-bold mb-4">
+                                                    MEHTAB ISRAR IS A GREAT AND SUPER-PROFESSIONAL SERVICE PROVIDER, WHICH BROUGHT NEW TECHNOLOGIES, NEW METHODOLOGY, AND A FRESH PERSPECTIVE TO OUR PROJECT
+                                                </blockquote>
+                                                <p class="testimonial-attribution text-muted-custom">
+                                                    Jack Metiyo Shina, california, USA
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- End Testimonial Content Row -->
+                        </div> <!-- End Container -->
+                    </section> <!-- End Testimonials Section -->
+                
+                    <!-- Pricing Section -->
+                    <section id="pricing" class="pricing-section py-5 overflow-hidden position-relative">
+                        <!-- Background Pattern -->
+                        <div class="background-pattern bottom-right"></div>
+                
+                        <div class="container position-relative" style="z-index: 2;">
+                            <!-- Section Title Row -->
+                            <div class="row mb-5 align-items-center">
+                                <div class="col-lg-6 text-center text-lg-start pricing-title-area" data-aos="fade-up">
+                                    <!-- Faded Background Text -->
+                                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">PAYMENT</div>
+                                    <p class="subtitle text-uppercase mb-2">Specifications</p>
+                                    <h2 class="main-title display-4 fw-bold mb-0">
+                                        ALL OUR PAYMENT <span class="text-custom-green">OPTIONS</span>
+                                    </h2>
+                                </div>
+                                <div class="col-lg-6 pricing-header-right mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                                    <!-- Description -->
+                                    <div class="pricing-description text-center text-lg-start">
+                                        <div class="green-marker"></div>
+                                        <p class="text-muted-custom lead mb-0">
+                                            PAYMENTS METHOD ARE EASLY RELIIABLE AND FREINDLY
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Pricing Cards Row -->
+                            <div class="row gy-4 justify-content-center">
+                                <!-- Pricing Card 1: Influencer -->
+                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="pricing-card p-4 p-lg-5 text-center w-100">
+                                        <div class="pricing-icon mb-4">
+                                            <i class="bi bi-flag-fill display-4 text-custom-green"></i>
+                                        </div>
+                                        <h3 class="plan-title h5 text-custom-green text-uppercase fw-bold mb-1">Influencer</h3>
+                                        <p class="plan-subtitle text-muted-custom small mb-4">Best For Small Investors</p>
+                                        <hr class="pricing-divider mx-auto">
+                                        <div class="pricing-block mb-4">
+                                            <span class="price display-5 fw-bold text-custom-green">$104</span>
+                                            <span class="period d-block small text-muted-custom">Per Month</span>
+                                        </div>
+                                        <a href="#" class="btn btn-sm btn-custom-green btn-read-more">
+                                            READ MORE
+                                            <span class="arrow-box ms-2">
+                                                <i class="bi bi-arrow-right-short"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Pricing Card 2: Agency (Highlighted) -->
+                                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                                     <div class="pricing-card card-highlight p-4 p-lg-5 text-center w-100 position-relative">
+                                        <div class="highlight-bg-pattern"></div>
+                                        <div class="pricing-icon mb-4 position-relative" style="z-index: 2;">
+                                            <i class="bi bi-lightbulb-fill display-4"></i>
+                                        </div>
+                                        <h3 class="plan-title h5 text-uppercase fw-bold mb-1 position-relative" style="z-index: 2;">Agency</h3>
+                                        <p class="plan-subtitle small mb-4 position-relative" style="z-index: 2;">Best For Small Investors</p>
+                                        <hr class="pricing-divider highlight-divider mx-auto position-relative" style="z-index: 2;">
+                                        <div class="pricing-block mb-4 position-relative" style="z-index: 2;">
+                                            <span class="price display-5 fw-bold">$204</span>
+                                            <span class="period d-block small">Per Month</span>
+                                        </div>
+                                        <a href="#" class="btn btn-sm btn-custom-green btn-read-more inverted position-relative" style="z-index: 2;">
+                                            READ MORE
+                                            <span class="arrow-box ms-2">
+                                                <i class="bi bi-arrow-right-short"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Pricing Card 3: Enterprise -->
+                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                                     <div class="pricing-card card-highlight p-4 p-lg-5 text-center w-100 position-relative">
+                                         <div class="highlight-bg-pattern"></div>
+                                        <div class="pricing-icon mb-4 position-relative" style="z-index: 2;">
+                                            <i class="bi bi-layers-fill display-4"></i>
+                                        </div>
+                                        <h3 class="plan-title h5 text-uppercase fw-bold mb-1 position-relative" style="z-index: 2;">Enterprise</h3>
+                                        <p class="plan-subtitle small mb-4 position-relative" style="z-index: 2;">Best For Small Investors</p>
+                                        <hr class="pricing-divider highlight-divider mx-auto position-relative" style="z-index: 2;">
+                                        <div class="pricing-block mb-4 position-relative" style="z-index: 2;">
+                                            <span class="price display-5 fw-bold">LET'S CHAT</span>
+                                            <span class="period d-block small">Per Month</span>
+                                        </div>
+                                        <a href="#" class="btn btn-sm btn-custom-green btn-read-more inverted position-relative" style="z-index: 2;">
+                                            READ MORE
+                                            <span class="arrow-box ms-2">
+                                                <i class="bi bi-arrow-right-short"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> <!-- End Pricing Cards Row -->
+                        </div> <!-- End Container -->
+                    </section> <!-- End Pricing Section -->
+                
+                 <!-- Login Section -->
+<section id="login-admin" class="login-section py-5 overflow-hidden">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 text-center">
+
+                <!-- Developer Message -->
+                <div class="login-message mb-5" data-aos="fade-up">
+                    <h2 class="main-title display-5 fw-bold mb-3">
+                        DEVELOPER <span class="text-custom-green">ACCESS</span>
+                    </h2>
+                    <p class="text-muted-custom lead">
+                        I am a developer. If you need professional web services or collaboration, feel free to reach out!
+                    </p>
+                     <!-- Optional: Add a contact link/button here if desired -->
+                     <!-- <a href="#contact" class="btn btn-sm btn-outline-custom-green mt-2">Contact Me</a> -->
+                </div>
+
+                <!-- Login Form -->
+                <div class="login-form-wrapper" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="mb-4 fw-bold">Admin Login</h3>
+                    <form action="#" method="post">
+                        <!-- Email Address -->
+                        <div class="form-floating mb-3" data-aos="fade-up" data-aos-delay="200">
+                            <input type="email" class="form-control login-input" id="loginEmail" placeholder="name@example.com" required>
+                            <label for="loginEmail"></label>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-floating mb-3" data-aos="fade-up" data-aos-delay="300">
+                            <input type="password" class="form-control login-input" id="loginPassword" placeholder="Password" required>
+                            <label for="loginPassword">Password</label>
+                        </div>
+
+                        <!-- Remember Me & Forgot Password -->
+                        <div class="d-flex justify-content-between align-items-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                                <label class="form-check-label small" for="rememberMe">
+                                    Remember me
+                                </label>
+                            </div>
+                            <a href="#" class="small forgot-link">Forgot password?</a>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-lg btn-custom-green w-100" data-aos="fade-up" data-aos-delay="500">
+                            LOGIN
+                            <span class="arrow-box ms-2">
+                               <i class="bi bi-box-arrow-in-right"></i>
+                           </span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Login Section -->
+                
+                    <!-- Footer -->
+                   <!-- Footer v2 - With JS Animations -->
+<footer id="footer-v2" class="site-footer-v2 pt-5 pb-4 position-relative overflow-hidden">
+    <div class="container position-relative" style="z-index: 2;">
+
+        <!-- Top Row: Title and Social Icons -->
+        <div class="row mb-4 align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0 footer-identity">
+                <h3 class="footer-title mb-2">
+                    <!-- Words split into spans for animation -->
+                    <span class="word-span" style="color: #7e22ce;">WEB</span>
+                    <span class="word-span">DEVELOPER</span>
+                </h3>
+                <p class="footer-subtitle text-muted-custom small mb-0" style="color: #7e22ce;">Crafting digital experiences, one line of code at a time.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end social-icons">
+                 <!-- Add your actual social links -->
+                <a href="#" target="_blank" class="social-icon-item" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" target="_blank" class="social-icon-item" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="#" target="_blank" class="social-icon-item" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" target="_blank" class="social-icon-item" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="footer-divider my-4">
+
+        <!-- Bottom Row: Languages and Copyright -->
+        <div class="row align-items-center">
+             <!-- Languages -->
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                 <h4 class="languages-title small text-uppercase fw-bold text-muted-custom mb-3">Technologies I Use</h4>
+                 <div class="language-logos-grid">
+                     <!-- Logos ready for animation -->
+                     <div class="language-logo-item" title="HTML5">
+                         <img src="html.png" alt="HTML Logo" class="img-fluid language-logo">
+                     </div>
+                     <div class="language-logo-item" title="CSS3">
+                         <img src="css.jfif" alt="CSS Logo" class="img-fluid language-logo">
+                     </div>
+                     <div class="language-logo-item" title="JavaScript">
+                         <img src="jss.png" alt="JavaScript Logo" class="img-fluid language-logo">
+                     </div>
+                     <div class="language-logo-item" title="Bootstrap">
+                         <img src="bootrap.png" alt="Bootstrap Logo" class="img-fluid language-logo">
+                     </div>
+                     <div class="language-logo-item" title="React">
+                         <img src="React.webp" alt="React Logo" class="img-fluid language-logo">
+                     </div>
+                      <!-- Add more logos if needed -->
+                 </div>
+            </div>
+            <!-- Copyright -->
+            <div class="col-lg-5 text-center text-lg-end">
+                 <p class="copyright-text-v2 small mb-0" style="color: #7e22ce;">
+                     © <span id="current-year"></span> Mehtab Israr. All Rights Reserved.
+                 </p>
+            </div>
+        </div>
+
+    </div> <!-- End Container -->
+</footer> <!-- End Footer v2 --><!-- End Footer Navigation Row -->
+                
+                            <!-- Copyright Row -->
+                          
+                    <!-- Scroll to Top Button -->
+                    <a href="#" class="scroll-to-top btn btn-custom-green position-fixed bottom-0 end-0 m-3 shadow d-none d-md-flex" aria-label="Scroll to top">
+                        <i class="bi bi-arrow-up-short"></i>
+                    </a>
+                
+                    <!-- Bootstrap Bundle JS (includes Popper) -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                
+                    <!-- AOS JS -->
+                    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                    <script>
+                      AOS.init({
+                        duration: 600, // Animation speed in milliseconds
+                        once: true     // Only animate once
+                      });
+                    </script>
+                
+                </body>
+                </html>
+   <!-- Bootstrap JS Bundle (includes Popper) -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Custom JS for Animations -->
+   <script src="script.js"></script> <!-- Make sure this line is present -->
+
+</body>
+</html>
